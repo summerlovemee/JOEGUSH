@@ -1,0 +1,200 @@
+@charset "UTF=8";
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    margin: 10px 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: #333;
+    line-height: 1;
+    font-family: 'Pretendard';
+}
+
+.wrap .header .logo {
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrap .header .logo img {
+    width: 168px;
+    height: 40px;
+    object-fit: cover;
+}
+.wrap .header .logo .nav {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* 헤더 */
+
+.wrap .header .category {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 16px;
+    color: #888;
+}
+.wrap .header .category a:first-child {
+    color: #000;
+    font-weight: bold;
+}
+/* 카테고리 */
+
+.wrap .header h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+    color: #000;
+}/* 타이틀all */
+
+.wrap .main .box {
+    width: 1860px;
+    height: 643px;
+    display: flex;
+    margin: 0 auto;
+   gap: 110px;
+}
+.wrap .main .box .item {
+    width:557px ;
+    height: 643px;
+    text-align: center;
+}
+.wrap .main .box .item a img {
+    width: 557px;
+    height: 557px;
+    object-fit: cover;
+}/* 아이템 1 */
+
+.wrap .main .box2 {
+    width: 1860px;
+    height: 643px;
+    display: flex;
+    margin: 0 auto;
+   gap: 100px;
+}
+.wrap .main .box2 .item {
+    width:557px ;
+    height: 643px;
+    text-align: center;
+}
+.wrap .main .box2 .item a img {
+    width: 557px;
+    height: 557px;
+    object-fit: cover;
+}/* 아이템 2 */
+
+.wrap .main .box3 {
+    width: 1860px;
+    height: 643px;
+    display: flex;
+    margin: 0 auto;
+   gap: 100px;
+}
+.wrap .main .box3 .item {
+    width:557px ;
+    height: 643px;
+    text-align: center;
+}
+.wrap .main .box3 .item a img {
+    width: 557px;
+    height: 557px;
+    object-fit: cover;
+}/* 아이템 3 */
+
+.wrap .main .box4 {
+    width: 1860px;
+    height: 643px;
+    display: flex;
+    margin: 0 auto;
+   gap: 100px;
+}
+.wrap .main .box4 .item {
+    width:557px ;
+    height: 643px;
+    text-align: center;
+}
+.wrap .main .box4 .item a img {
+    width: 557px;
+    height: 557px;
+    object-fit: cover;
+}/* 아이템 4 */
+
+.wrap .main .box5 {
+    width: 1860px;
+    height: 643px;
+    display: flex;
+    margin: 0 auto;
+   gap: 100px;
+}
+.wrap .main .box5 .item {
+    width:557px ;
+    height: 643px;
+    text-align: center;
+}
+.wrap .main .box5 .item a img {
+    width: 557px;
+    height: 557px;
+    object-fit: cover;
+}/* 아이템 5 */
+
+.wrap .num123 {
+margin-top: 150px;
+display: flex;
+justify-content: center;
+gap: 60px;
+}
+.wrap .num123 a:nth-child(3), 
+.wrap .num123 a:nth-child(4) {
+    color: #888;
+}/* num123 */
+
+.wrap .footer h3 {
+    font-family: 'Pretendard-bold';
+    font-size: 420px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-top: 95px;
+}
+
+.wrap .footer .footer_info {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 44px;
+}
+
+.wrap .footer .Address {
+    margin-top: 25px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wrap .footer .Address p {
+    margin-bottom: 15px;
+}/* footer */

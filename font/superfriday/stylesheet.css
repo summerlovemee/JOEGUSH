@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Super Friday';
+    src: url('SuperFriday.eot');
+    src: url('SuperFriday.eot?#iefix') format('embedded-opentype'),
+        url('SuperFriday.woff2') format('woff2'),
+        url('SuperFriday.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

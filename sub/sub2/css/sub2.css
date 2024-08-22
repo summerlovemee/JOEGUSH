@@ -1,0 +1,253 @@
+@charset "UTF=8";
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 10px 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: #333;
+    line-height: 1;
+font-family: 'Pretendard';
+}
+
+.wrap .header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    position: relative;
+    margin: 0 40px;
+    font-size: 20px;
+}
+.wrap .header .f1 a {
+position: absolute;
+top: 0;
+left: 40px;
+font-size: 20px;
+}/* header */
+
+.wrap .logo {
+    display: flex;
+    justify-content: center;
+}
+.wrap .logo img {
+    width: 169px;
+    height: 40px;
+    object-fit: cover;
+}/* logo */
+
+.wrap .pix {
+    width: 1700px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: flex-start;
+
+}
+.wrap .pay {
+   width: 530px;
+    position: sticky;
+    top: 0;
+    right: 0;
+   order:1;
+    /* display: flex;
+    justify-content: end;
+    flex-wrap: wrap; */
+    font-weight: bold;
+}
+.wrap .pay .name {
+   
+    border-bottom: 1px solid #ACACAC;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+.wrap .pay .name h1 {
+    font-size: 36px;
+    font-family: 'GangwonEduPowerExtraBoldA';
+    font-weight: bold;
+    color: #000;
+}
+.wrap .pay .name strong {
+    font-size: 20px;
+}
+.wrap .pay .talk {
+    line-height: 1.5;
+    margin-top: 20px;
+   
+}
+.wrap .pic {
+    width: 1000px;
+}
+.wrap .pay .talk strong {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'GangwonEduPowerExtraBoldA';
+}
+.wrap .pay .talk p {
+    color: #333;
+    font-weight: 200;
+}
+.wrap .pay .talk .btn {
+    text-align: center;
+    margin-top:20px ;
+}
+.wrap .pay .talk .btn .buy  {
+    width: 579px;
+    height: 57px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.wrap .pay .talk .btn .add {
+    width: 579px;
+    height: 57px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border: 1px solid #000;
+}
+.wrap .pay .talk .purchase {
+    width: 452px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #c5c4c4;
+    position: relative;
+}
+.wrap .pay .talk .purchase .naver p {
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.wrap .pay .talk .purchase .naver img {
+    width: 80px;
+    height: 30px;
+    object-fit: cover;
+    position: absolute;
+    top: -5px;
+    left: -15px;
+}
+.wrap .pay .talk .purchase .naver p {
+    font-size: 16px;
+}
+.wrap .pay .talk .purchase .btn2 {
+    display: flex;
+    gap: 10px;
+}
+.wrap .pay .talk .purchase .btn2 .npay img {
+    width:190px ;
+    height: 56px;
+    object-fit: cover;
+}
+.wrap .pay .talk .purchase .btn2 .dib img {
+    width: 60px;
+    height: 56px;
+    object-fit: cover;
+}
+.wrap .pay .talk .money {
+    display: flex;
+    gap: 15px;
+}
+.wrap .pay .talk .money h4 {
+    font-size: 14px;
+    color: #00DE5A;
+}
+.wrap .pay .talk .money h5 {
+    font-size: 14px;
+    color: #908888;
+}/* pay */
+
+
+.wrap .pic img {
+    width: 1000px;
+    height: 1000px;
+    object-fit: cover;
+    margin-bottom: 170px;
+    margin-left: 160px;
+}/* pic */
+
+.wrap .order {
+    width: 1000px;
+    margin-left: 160px;
+    border: 1px solid #ACACAC;
+    
+}
+.wrap .order a {
+    display: flex;
+    font-size: 20px;
+    border-top:1px solid #ACACAC;
+    /* border-bottom: 1px solid #ACACAC; */
+    padding: 20px ;
+    
+}
+.wrap .order .info a{
+ padding: 20px;
+ margin-top: -10px;
+ border-bottom: 1px solid #ACACAC;
+ 
+}
+.wrap .order .info p {
+    padding: 20px;
+    background-color: #F2F2F2;
+}
+.wrap .footer h3 {
+    font-family: 'Pretendard-bold';
+    font-size: 420px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-top: 95px;
+}
+
+.wrap .footer .footer_info {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 44px;
+}
+
+.wrap .footer .Address {
+    margin-top: 25px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wrap .footer .Address p {
+    margin-bottom: 15px;
+}/* footer */

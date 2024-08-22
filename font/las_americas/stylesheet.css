@@ -1,0 +1,22 @@
+@font-face {
+    font-family: '';
+    src: url('579d3b9ba32311375092ff050c1835b8.eot');
+    src: url('579d3b9ba32311375092ff050c1835b8.eot?#iefix') format('embedded-opentype'),
+        url('579d3b9ba32311375092ff050c1835b8.woff2') format('woff2'),
+        url('579d3b9ba32311375092ff050c1835b8.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Las Americas PERSONAL USE';
+    src: url('LasAmericasPERSONALUSE-Regular.eot');
+    src: url('LasAmericasPERSONALUSE-Regular.eot?#iefix') format('embedded-opentype'),
+        url('LasAmericasPERSONALUSE-Regular.woff2') format('woff2'),
+        url('LasAmericasPERSONALUSE-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

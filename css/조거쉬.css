@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: #333;
+    line-height: 1;
+    font-family: 'Pretendard-Regular';
+}
+
+.wrap .header {
+    width: 1920px;
+}
+
+.wrap .header figure img {
+    width: 100%;
+    height: 950px;
+    object-fit: cover;
+    position: relative;
+}
+
+.wrap .header ul a {
+    width: 168px;
+    height: 40px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 7px;
+    left: 51%;
+
+}
+
+.wrap .menu {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.wrap .menu .left a {
+    font-size: 20px;
+}
+.wrap .menu .right {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+.wrap .menu .right a {
+      font-size: 20px;
+      margin-top: 8px;
+}
+
+
+.wrap .menu .search {
+    width: 240px;
+    height: 50px;
+  position: absolute;
+  top: 10px;
+  right: 320px;
+}
+.wrap .menu .search img {
+    position: absolute;
+    right: 80px;
+    top: -15px;
+}
+.wrap .menu .search input {
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+.wrap .menu ul {
+    display: flex;
+    margin: 30px 40px;
+    font-size: 20px;
+    gap: 27px;
+}
+
+.wrap .menu ul a:nth-child(6) {
+    margin-right: 700px;
+}
+
+.wrap .collection {
+    margin: 0 auto;
+}
+
+.wrap .collection {
+    position: relative;
+}
+
+.wrap .collection img:first-child {
+    width: 960px;
+    height: 1440px;
+    object-fit: cover;
+}
+
+.wrap .collection img:nth-child(2) {
+    width: 937px;
+    height: 1200px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+}
+
+.wrap .collection img:nth-child(3) {
+    width: 240px;
+    height: 56px;
+    margin-left: 416px;
+}
+.wrap .collection .text .text01 h1{
+    font-size: 27px;
+    font-weight: bold;
+    text-shadow: 2px 3px #485fddcb;
+}
+.wrap .collection .text .text02 h1{
+    font-size: 27px;
+    font-weight: bold;
+    text-shadow: 2px 2.5px #485fddcb;
+}
+.wrap .collection .text01 {
+    color: #000;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    line-height: 2;
+}
+.wrap .collection .text02 {
+    color: #000;
+    position: absolute;
+    top: 40px;
+    right: 760px;
+    line-height: 2;
+}
+.wrap .collection .text01 a {
+    border-bottom:1px solid #000;
+}
+.wrap .collection .text02 a {
+    border-bottom:1px solid #000;
+}
+
+
+.wrap .style {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.wrap .style h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.wrap .style .link a {
+    font-size: 20px;
+}
+.wrap .style figure .box01 {
+    position: relative;
+}
+
+.wrap .style .popup {
+   width: 357px;
+    height: 200px; 
+    display: flex;
+    justify-content: center;
+    margin-left: -90px;
+    display: none;
+}
+.wrap .style .box01:hover .popup{
+    display: flex;
+}
+.wrap .style .popup .buy {
+    text-align: left;
+    background-color:#d9d9d9c5 ;
+    width: 160px;
+    height: 190px;
+}
+
+
+.wrap .style .popup .buy div a {
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 130px;
+    height: 35px;
+    text-align: center;
+    padding: 8px ;
+    font-size: 12px;
+    font-weight:600;
+    margin-left: 14px;
+    margin-top: 19px;
+}
+
+
+.wrap .style .popup .buy p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    margin-top: 15px;  
+     margin-left: 15px;
+}
+.wrap .style .popup .buy strong {
+    font-size: 16px;
+    font-weight: 900; 
+     margin-left: 15px;
+    text-shadow: 2px 2px hsl(0, 3%, 77%);
+}
+.wrap .style .box01:nth-child(4) p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 23px;
+    margin-top: 15px;  
+     margin-left: 15px;
+}
+.wrap .style .box01 .popup .buy{
+    position: relative;
+}
+.wrap .style .box01 .pic img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute; 
+    top: -105px;
+    left: 254px;
+
+
+}
+.wrap .style figure a{
+    position: relative;
+    display: block;
+}
+.wrap .style figure {
+    display: flex;
+    justify-content: space-between;
+}
+.wrap .style .box01 .popup {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+.wrap .style figure .box01 img {
+    width: 463px;
+    height: 530px;
+    object-fit: cover;
+    padding: 5px;
+    margin-top: 100px;
+}
+
+.wrap .footer h3 {
+    font-family: 'Pretendard-bold';
+    font-size: 420px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin-top: 95px;
+}
+
+.wrap .footer .footer_info {
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    font-size: 20px;
+    font-weight: bold;
+    gap: 44px;
+}
+
+.wrap .footer .Address {
+    margin-top: 25px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wrap .footer .Address p {
+    margin-bottom: 15px;
+}
